@@ -1,18 +1,25 @@
-*{
-    padding:0px;
-    margin:0px;
+* {
+    margin: 0;
+    padding: 0;
 }
-
-h1{
-    margin: 15px;
-    text-align:center;
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+    padding: 25px;
 }
-
-.box{
-    width: 150px;
-    height: 150px;
-    display:inline-block;
+.container {
+    display: inline-block;
+    margin: auto;
+}
+h1 {
     text-align: center;
-    justify-content: center;
+}
+.box {
+    display: inline-block;
+    margin: 15px;
+    width: 90px;
+    height: 90px;
     background-color: #0099cc;
+    border: 1px solid #252525;
+    box-shadow: 1px 2px 2px #252525;
 }
